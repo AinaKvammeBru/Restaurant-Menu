@@ -1,0 +1,125 @@
+body {
+  background-image: url(images/food-salad-healthy-vegetables2.jpg);
+  background-size: 100%;
+  background-attachment: fixed;
+  margin: 0 15%;
+}
+h1 {
+  color: #000;
+  border-style: none;
+  text-align: center;
+  background-color: #F8F3D9;
+  width: 100%;
+  text-transform: capitalize;
+  text-decoration: underline;
+  padding: 1.5%;
+}
+
+h2 {
+  background-color: #F8F3D9;
+  text-transform: capitalize;
+  text-align: center;
+  text-decoration: underline;
+  clear: both;
+}
+h3{
+  background-color: #D45235;
+  text-transform: capitalize;
+  text-align: center;
+  text-decoration:none;
+  font-size: 200%;
+  clear: both;
+}
+nav ul {
+  list-style: none;
+  text-align: center;
+  margin-left: 5%;
+}
+
+nav ul li {
+  font-size: 1.2em;
+  line-height: 1em;
+}
+
+nav ul li a {
+  float: left;
+  width: 9.9em;
+  display: inline-block;
+  padding: 0.5em;
+  margin: 0.1em;
+  text-decoration: none;
+  color: #000;
+  background-color: #F8F3D9;
+  overflow: hidden;
+}
+
+nav ul li a:hover {
+  color: #000;
+  background-color: #D45235;
+}
+
+.selected {
+  font-weight: bold;
+  background-color: #D45235;
+}
+
+p {
+  padding: 2em;
+  background-color: #F8F3D9;
+  text-align: center;
+  clear: both;
+  font-style: italic;
+}
+
+.list {
+  background-color: #F8F3D9;
+  text-align: center;
+  list-style: none;
+  width: 100%;
+  padding-bottom: 0.1em;
+
+}
+#next
+{
+  width: 10%;
+  padding: 0.1em;
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+  font-size: 150%;
+  border-style: inset;
+}
+#map {
+  margin-left: 1.2em;
+  width: 98%;
+  height: 20em;
+  border-style: none;
+  clear: both;
+}
+#opening-hours{
+  font-weight: bold
+}
+.menu-item {
+    padding: 0%;
+    background-color: #F8F3D9;
+}
+
+.price {
+    float: right;
+    font-size: 200%;
+    font-weight: bold;
+}
+footer a {
+  text-decoration: none;
+  color: #D45235;
+  float: right;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+footer a:visited {
+  color: #000;
+}
